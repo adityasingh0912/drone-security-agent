@@ -1,0 +1,16 @@
+[
+  {"frame_id": 1,  "time": "00:00", "location": "Main Gate",   "description": "A person in dark clothing is standing near the main gate, looking around suspiciously."},
+  {"frame_id": 2,  "time": "00:01", "location": "Main Gate",   "description": "The same person is still loitering at the main gate. No vehicle visible."},
+  {"frame_id": 3,  "time": "00:02", "location": "Parking Lot", "description": "A blue Ford F150 truck enters the parking lot from the north entrance."},
+  {"frame_id": 4,  "time": "00:03", "location": "Parking Lot", "description": "The blue Ford F150 parks near the east wall. Driver exits and walks toward building."},
+  {"frame_id": 5,  "time": "00:04", "location": "Garage",      "description": "Two individuals are seen near the garage door. One appears to be attempting to open it."},
+  {"frame_id": 6,  "time": "00:05", "location": "Garage",      "description": "Garage area is now clear. No persons detected. A white sedan is parked inside."},
+  {"frame_id": 7,  "time": "00:06", "location": "Back Fence",  "description": "A dog is running along the back fence line. No human activity detected."},
+  {"frame_id": 8,  "time": "00:07", "location": "Back Fence",  "description": "The back fence area is empty. Good visibility. No threats detected."},
+  {"frame_id": 9,  "time": "00:08", "location": "Main Gate",   "description": "A delivery van (brown UPS-style) has stopped at the main gate. Driver is waiting."},
+  {"frame_id": 10, "time": "00:09", "location": "Main Gate",   "description": "The delivery van has left. Gate is clear. No persons visible."},
+  {"frame_id": 11, "time": "00:10", "location": "Parking Lot", "description": "The blue Ford F150 is exiting the parking lot through the south entrance. Same vehicle as frame 3."},
+  {"frame_id": 12, "time": "12:00", "location": "Garage",      "description": "Blue Ford F150 spotted at the garage entrance again. Driver appears familiar from earlier visit."},
+  {"frame_id": 13, "time": "23:58", "location": "Main Gate",   "description": "A person is standing at the main gate at midnight. Behavior appears suspicious, not moving for several minutes."},
+  {"frame_id": 14, "time": "23:59", "location": "Main Gate",   "description": "The person at the main gate is still present. No vehicle. Possible loitering at midnight."}
+]

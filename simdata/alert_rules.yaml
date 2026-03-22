@@ -1,0 +1,72 @@
+rules:
+  - id: person_on_ground
+    name: "Person Down - Possible Emergency"
+    description: "Person detected lying on ground - medical emergency or accident"
+    condition:
+      keywords: ["lying", "ground", "fallen", "collapsed", "PERSON_ON_GROUND"]
+    severity: CRITICAL
+    alert_template: "CRITICAL: Person possibly down at {location}, {time}. Immediate response needed."
+
+  - id: road_blocked
+    name: "Road Obstruction Detected"
+    description: "Vehicle stopped or blocking traffic flow"
+    condition:
+      keywords: ["blocking", "stopped", "obstruction", "ROAD_BLOCKED", "stationary"]
+    severity: HIGH
+    alert_template: "ALERT: Road obstruction at {location}, {time}."
+
+  - id: crowd_gathering
+    name: "Crowd Gathering"
+    description: "Large crowd detected - possible crush hazard"
+    condition:
+      keywords: ["crowd", "CROWD_DETECTED", "gathering", "group", "many people"]
+    severity: HIGH
+    alert_template: "ALERT: Crowd gathering detected at {location}, {time}."
+
+  - id: pedestrians_crossing
+    name: "Pedestrian Crossing Activity"
+    description: "People crossing street detected"
+    condition:
+      keywords: ["crossing", "crosswalk", "PEDESTRIANS_CROSSING", "zebra"]
+    severity: LOW
+    alert_template: "INFO: Pedestrian crossing activity at {location}, {time}."
+
+  - id: motorcycle_detected
+    name: "Motorcycle / Scooter Detected"
+    description: "Motorcycle or scooter in monitored zone"
+    condition:
+      keywords: ["motorcycle", "motorbike", "scooter", "MOTORCYCLE_DETECTED"]
+    severity: MEDIUM
+    alert_template: "NOTICE: Motorcycle detected at {location}, {time}."
+
+  - id: tuk_tuk_detected
+    name: "Tuk-Tuk / Rickshaw Detected"
+    description: "Three-wheeler vehicle detected"
+    condition:
+      keywords: ["tuk", "rickshaw", "TUK_TUK_DETECTED", "three-wheel"]
+    severity: LOW
+    alert_template: "INFO: Tuk-tuk/rickshaw spotted at {location}, {time}."
+
+  - id: person_activity
+    name: "General Person Activity"
+    description: "Person detected in monitored area"
+    condition:
+      keywords: ["person", "people", "pedestrian", "walking", "standing"]
+    severity: LOW
+    alert_template: "INFO: Person activity at {location}, {time}."
+
+  - id: vehicle_activity
+    name: "Vehicle Activity"
+    description: "Vehicle detected in monitored zone"
+    condition:
+      keywords: ["car", "vehicle", "bus", "truck", "taxi", "driving"]
+    severity: MEDIUM
+    alert_template: "NOTICE: Vehicle spotted at {location}, {time}."
+
+  - id: running_detected
+    name: "Running / Rushing Detected"
+    description: "Person running - possible emergency or chase"
+    condition:
+      keywords: ["running", "rushing", "chasing", "sprint"]
+    severity: HIGH
+    alert_template: "ALERT: Running detected at {location}, {time}. Verify situation."

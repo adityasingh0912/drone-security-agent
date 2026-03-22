@@ -1,0 +1,16 @@
+[
+  {"time": "00:00", "location": "Main Gate", "lat": 28.6139, "lon": 77.2090, "altitude_m": 15, "drone_id": "DRONE-01"},
+  {"time": "00:01", "location": "Main Gate", "lat": 28.6139, "lon": 77.2090, "altitude_m": 15, "drone_id": "DRONE-01"},
+  {"time": "00:02", "location": "Parking Lot", "lat": 28.6141, "lon": 77.2093, "altitude_m": 18, "drone_id": "DRONE-01"},
+  {"time": "00:03", "location": "Parking Lot", "lat": 28.6141, "lon": 77.2093, "altitude_m": 18, "drone_id": "DRONE-01"},
+  {"time": "00:04", "location": "Garage", "lat": 28.6135, "lon": 77.2088, "altitude_m": 12, "drone_id": "DRONE-01"},
+  {"time": "00:05", "location": "Garage", "lat": 28.6135, "lon": 77.2088, "altitude_m": 12, "drone_id": "DRONE-01"},
+  {"time": "00:06", "location": "Back Fence", "lat": 28.6130, "lon": 77.2085, "altitude_m": 20, "drone_id": "DRONE-01"},
+  {"time": "00:07", "location": "Back Fence", "lat": 28.6130, "lon": 77.2085, "altitude_m": 20, "drone_id": "DRONE-01"},
+  {"time": "00:08", "location": "Main Gate", "lat": 28.6139, "lon": 77.2090, "altitude_m": 15, "drone_id": "DRONE-01"},
+  {"time": "00:09", "location": "Main Gate", "lat": 28.6139, "lon": 77.2090, "altitude_m": 15, "drone_id": "DRONE-01"},
+  {"time": "00:10", "location": "Parking Lot", "lat": 28.6141, "lon": 77.2093, "altitude_m": 18, "drone_id": "DRONE-01"},
+  {"time": "12:00", "location": "Garage", "lat": 28.6135, "lon": 77.2088, "altitude_m": 12, "drone_id": "DRONE-01"},
+  {"time": "23:58", "location": "Main Gate", "lat": 28.6139, "lon": 77.2090, "altitude_m": 15, "drone_id": "DRONE-01"},
+  {"time": "23:59", "location": "Main Gate", "lat": 28.6139, "lon": 77.2090, "altitude_m": 15, "drone_id": "DRONE-01"}
+]

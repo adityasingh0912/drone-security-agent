@@ -1,0 +1,1879 @@
+{
+  "video_hash": "8beec74538b7",
+  "video_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\security_footage.mp4",
+  "frame_count": 47,
+  "analyses": [
+    {
+      "frame_id": 1,
+      "time": "00:00",
+      "location": "Street / Main Gate",
+      "raw_description": "an overhead view of a city street with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "an overhead view of a city street with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground? street art, street art, street view, street view, street view, street view, street view, street view, street view, street view,",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0000.jpg"
+    },
+    {
+      "frame_id": 2,
+      "time": "00:01",
+      "location": "Street / Main Gate",
+      "raw_description": "a view of a street with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a view of a street with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0001.jpg"
+    },
+    {
+      "frame_id": 3,
+      "time": "00:02",
+      "location": "Street / Main Gate",
+      "raw_description": "a view of a city street with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a view of a city street with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0002.jpg"
+    },
+    {
+      "frame_id": 4,
+      "time": "00:03",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0003.jpg"
+    },
+    {
+      "frame_id": 5,
+      "time": "00:04",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0004.jpg"
+    },
+    {
+      "frame_id": 6,
+      "time": "00:05",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0005.jpg"
+    },
+    {
+      "frame_id": 7,
+      "time": "00:06",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0006.jpg"
+    },
+    {
+      "frame_id": 8,
+      "time": "00:07",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0007.jpg"
+    },
+    {
+      "frame_id": 9,
+      "time": "00:08",
+      "location": "Street / Main Gate",
+      "raw_description": "a view of a street with cars and people crossing the street",
+      "detected_objects": [
+        "person",
+        "car",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a view of a street with cars and people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??????????????"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0008.jpg"
+    },
+    {
+      "frame_id": 10,
+      "time": "00:09",
+      "location": "Street / Main Gate",
+      "raw_description": "a view of a street with a red crosswalk in the middle of the street",
+      "detected_objects": [
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car",
+        "person"
+      ],
+      "detected_actions": [],
+      "caption": "a view of a street with a red crosswalk in the middle of the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??????????????"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0009.jpg"
+    },
+    {
+      "frame_id": 11,
+      "time": "00:10",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0010.jpg"
+    },
+    {
+      "frame_id": 12,
+      "time": "00:11",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0011.jpg"
+    },
+    {
+      "frame_id": 13,
+      "time": "00:12",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a city street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a city street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0012.jpg"
+    },
+    {
+      "frame_id": 14,
+      "time": "00:13",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows people crossing a street in hong ' s central district",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows people crossing a street in hong ' s central district",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0013.jpg"
+    },
+    {
+      "frame_id": 15,
+      "time": "00:14",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a city street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a city street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0014.jpg"
+    },
+    {
+      "frame_id": 16,
+      "time": "00:15",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with a car and people crossing the street",
+      "detected_objects": [
+        "person",
+        "car",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with a car and people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0015.jpg"
+    },
+    {
+      "frame_id": 17,
+      "time": "00:16",
+      "location": "Street / Main Gate",
+      "raw_description": "a view of a street with cars and people on the street",
+      "detected_objects": [
+        "person",
+        "car",
+        "traffic",
+        "motorcycle",
+        "rickshaw"
+      ],
+      "detected_actions": [],
+      "caption": "a view of a street with cars and people on the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0016.jpg"
+    },
+    {
+      "frame_id": 18,
+      "time": "00:17",
+      "location": "Street / Main Gate",
+      "raw_description": "a person riding a motorcycle down a street",
+      "detected_objects": [
+        "person",
+        "bicycle",
+        "motorcycle",
+        "traffic",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "riding"
+      ],
+      "caption": "a person riding a motorcycle down a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene???"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0017.jpg"
+    },
+    {
+      "frame_id": 19,
+      "time": "00:18",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0018.jpg"
+    },
+    {
+      "frame_id": 20,
+      "time": "00:19",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0019.jpg"
+    },
+    {
+      "frame_id": 21,
+      "time": "00:20",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0020.jpg"
+    },
+    {
+      "frame_id": 22,
+      "time": "00:21",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0021.jpg"
+    },
+    {
+      "frame_id": 23,
+      "time": "00:22",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0022.jpg"
+    },
+    {
+      "frame_id": 24,
+      "time": "00:23",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0023.jpg"
+    },
+    {
+      "frame_id": 25,
+      "time": "00:24",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0024.jpg"
+    },
+    {
+      "frame_id": 26,
+      "time": "00:25",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0025.jpg"
+    },
+    {
+      "frame_id": 27,
+      "time": "00:26",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows people crossing a street in hong ' s central district",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows people crossing a street in hong ' s central district",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0026.jpg"
+    },
+    {
+      "frame_id": 28,
+      "time": "00:27",
+      "location": "Street / Main Gate",
+      "raw_description": "an overhead view of a city street with cars and people",
+      "detected_objects": [
+        "person",
+        "car",
+        "traffic",
+        "motorcycle",
+        "rickshaw"
+      ],
+      "detected_actions": [],
+      "caption": "an overhead view of a city street with cars and people",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0027.jpg"
+    },
+    {
+      "frame_id": 29,
+      "time": "00:28",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows people crossing a street in hong ' s central district",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows people crossing a street in hong ' s central district",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0028.jpg"
+    },
+    {
+      "frame_id": 30,
+      "time": "00:29",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0029.jpg"
+    },
+    {
+      "frame_id": 31,
+      "time": "00:30",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a man walking across a crosswalk on a busy street",
+      "detected_objects": [
+        "person",
+        "bus",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a security camera shows a man walking across a crosswalk on a busy street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0030.jpg"
+    },
+    {
+      "frame_id": 32,
+      "time": "00:31",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a man on a motorcycle crossing a street",
+      "detected_objects": [
+        "person",
+        "bicycle",
+        "motorcycle",
+        "traffic",
+        "crossing",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows a man on a motorcycle crossing a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0031.jpg"
+    },
+    {
+      "frame_id": 33,
+      "time": "00:32",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0032.jpg"
+    },
+    {
+      "frame_id": 34,
+      "time": "00:33",
+      "location": "Street / Main Gate",
+      "raw_description": "a street filled with cars and people sitting on the sidewalk",
+      "detected_objects": [
+        "person",
+        "car",
+        "traffic",
+        "motorcycle",
+        "rickshaw"
+      ],
+      "detected_actions": [
+        "sitting"
+      ],
+      "caption": "a street filled with cars and people sitting on the sidewalk",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0033.jpg"
+    },
+    {
+      "frame_id": 35,
+      "time": "00:34",
+      "location": "Street / Main Gate",
+      "raw_description": "a city street filled with people and cars",
+      "detected_objects": [
+        "person",
+        "car",
+        "traffic",
+        "motorcycle",
+        "rickshaw"
+      ],
+      "detected_actions": [],
+      "caption": "a city street filled with people and cars",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0034.jpg"
+    },
+    {
+      "frame_id": 36,
+      "time": "00:35",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a man walking across a crosswalk on a busy street in seoul, south korea",
+      "detected_objects": [
+        "person",
+        "bus",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a security camera shows a man walking across a crosswalk on a busy street in seoul, south korea",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people? - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0035.jpg"
+    },
+    {
+      "frame_id": 37,
+      "time": "00:36",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a man running across a crosswalk on a busy street",
+      "detected_objects": [
+        "person",
+        "bus",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "running"
+      ],
+      "caption": "a security camera shows a man running across a crosswalk on a busy street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0036.jpg"
+    },
+    {
+      "frame_id": 38,
+      "time": "00:37",
+      "location": "Street / Main Gate",
+      "raw_description": "an overhead view of a city street with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "an overhead view of a city street with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0037.jpg"
+    },
+    {
+      "frame_id": 39,
+      "time": "00:38",
+      "location": "Street / Main Gate",
+      "raw_description": "a street scene with people crossing the street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a street scene with people crossing the street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0038.jpg"
+    },
+    {
+      "frame_id": 40,
+      "time": "00:39",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0039.jpg"
+    },
+    {
+      "frame_id": 41,
+      "time": "00:40",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene??"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0040.jpg"
+    },
+    {
+      "frame_id": 42,
+      "time": "00:41",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a group of people crossing a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows a group of people crossing a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0041.jpg"
+    },
+    {
+      "frame_id": 43,
+      "time": "00:42",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a group of people crossing a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows a group of people crossing a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0042.jpg"
+    },
+    {
+      "frame_id": 44,
+      "time": "00:43",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0043.jpg"
+    },
+    {
+      "frame_id": 45,
+      "time": "00:44",
+      "location": "Street / Main Gate",
+      "raw_description": "a security camera shows a group of people crossing a street in hong",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a security camera shows a group of people crossing a street in hong",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0044.jpg"
+    },
+    {
+      "frame_id": 46,
+      "time": "00:45",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people walking across a crosswalk on a street",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "walking"
+      ],
+      "caption": "a group of people walking across a crosswalk on a street",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0045.jpg"
+    },
+    {
+      "frame_id": 47,
+      "time": "00:46",
+      "location": "Street / Main Gate",
+      "raw_description": "a group of people crossing a street in a city",
+      "detected_objects": [
+        "person",
+        "traffic",
+        "crossing",
+        "motorcycle",
+        "rickshaw",
+        "car"
+      ],
+      "detected_actions": [
+        "crossing"
+      ],
+      "caption": "a group of people crossing a street in a city",
+      "risk_score": 10,
+      "low_confidence": false,
+      "vqa_results": {
+        "people_crossing": "are there people crossing the street?",
+        "vehicle_on_road": "is there a car or vehicle on the road?",
+        "crowd_present": "is there a large crowd of people?",
+        "person_on_ground": "is anyone lying on the ground?",
+        "motorcycle": "is there a motorcycle or scooter in the scene?",
+        "road_blocked": "is there a vehicle stopped or blocking the road?",
+        "tuk_tuk": "is there a tuk - tuk or rickshaw in the scene?"
+      },
+      "vqa_flags": [
+        "PERSON_ON_GROUND",
+        "ROAD_BLOCKED",
+        "CROWD_DETECTED",
+        "PEDESTRIANS_CROSSING",
+        "MOTORCYCLE_DETECTED",
+        "TUK_TUK_DETECTED",
+        "VEHICLE_ON_ROAD"
+      ],
+      "source": "real_video",
+      "image_path": "C:\\Users\\Administrator\\Desktop\\drone-security-agent\\frames\\frame_0046.jpg"
+    }
+  ]
+}

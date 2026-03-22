@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Drone Security Analyst</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:       #0f1117;
+    --surface:  #1a1d27;
+    --surface2: #22263a;
+    --border:   #2e3252;
+    --accent:   #4f7cff;
+    --red:      #ff4f4f;
+    --orange:   #ff8c42;
+    --yellow:   #f5c842;
+    --green:    #3dd68c;
+    --text:     #e2e8f0;
+    --muted:    #7c8db5;
+    --font:     'Segoe UI', system-ui, sans-serif;
+  }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); min-height: 100vh; }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .drone-icon { font-size: 28px; }
+  header h1 { font-size: 20px; font-weight: 600; letter-spacing: -0.3px; }
+  header p  { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); margin-left: auto; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  main { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+
+  .top-actions { display: flex; gap: 12px; margin-bottom: 32px; }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.15s, transform 0.1s;
+  }
+  button:hover { opacity: 0.85; transform: translateY(-1px); }
+  button:active { transform: translateY(0); }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-danger  { background: var(--red);    color: #fff; }
+  .btn-ghost   { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 32px; }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .stat-card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-card .value { font-size: 32px; font-weight: 700; margin-top: 6px; }
+  .stat-card .value.red    { color: var(--red); }
+  .stat-card .value.orange { color: var(--orange); }
+  .stat-card .value.accent { color: var(--accent); }
+  .stat-card .value.green  { color: var(--green); }
+
+  .summary-bar {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-bottom: 28px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .summary-bar span { color: var(--text); font-style: italic; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-header .count { font-size: 12px; color: var(--muted); font-weight: 400; }
+  .card-body { padding: 0; max-height: 380px; overflow-y: auto; }
+
+  .alert-item {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .alert-item:last-child { border-bottom: none; }
+  .badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  .badge.CRITICAL { background: #ff4f4f22; color: var(--red); border: 1px solid var(--red); }
+  .badge.HIGH     { background: #ff8c4222; color: var(--orange); border: 1px solid var(--orange); }
+  .badge.MEDIUM   { background: #f5c84222; color: var(--yellow); border: 1px solid var(--yellow); }
+  .alert-text { font-size: 13px; line-height: 1.5; }
+  .alert-meta { font-size: 11px; color: var(--muted); margin-top: 3px; }
+
+  .frame-item {
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+  }
+  .frame-item:last-child { border-bottom: none; }
+  .frame-header { display: flex; gap: 10px; align-items: center; margin-bottom: 4px; }
+  .frame-id { font-size: 11px; color: var(--muted); }
+  .frame-time { font-size: 11px; background: var(--surface2); padding: 2px 8px; border-radius: 4px; color: var(--accent); }
+  .frame-loc  { font-size: 11px; color: var(--muted); }
+  .frame-desc { color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .frame-flag { font-size: 10px; color: var(--red); font-weight: 600; }
+
+  .search-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  .search-section h3 { font-size: 14px; font-weight: 600; margin-bottom: 14px; }
+  .search-row { display: flex; gap: 10px; }
+  input[type="text"] {
+    flex: 1;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: var(--font);
+  }
+  input[type="text"]::placeholder { color: var(--muted); }
+  input[type="text"]:focus { outline: 2px solid var(--accent); border-color: transparent; }
+
+  .agent-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  .agent-section h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+  .agent-section p  { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+  .agent-output {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    min-height: 60px;
+    color: var(--text);
+    display: none;
+  }
+  .agent-steps { margin-top: 10px; font-size: 12px; color: var(--muted); }
+  .agent-step  { padding: 6px 0; border-bottom: 1px solid var(--border); }
+
+  .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid #fff4; border-top-color: #fff; border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .search-results {
+    margin-top: 14px;
+    max-height: 260px;
+    overflow-y: auto;
+  }
+
+  .empty { padding: 24px; text-align: center; color: var(--muted); font-size: 13px; }
+
+  @media (max-width: 768px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .grid-2     { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="drone-icon">🛸</div>
+  <div>
+    <h1>Drone Security Analyst</h1>
+    <p>FlytBase AI Engineer Assignment — Real-time property monitoring</p>
+  </div>
+  <div class="status-dot" title="System online"></div>
+</header>
+
+<main>
+
+  <div class="top-actions">
+    <button class="btn-primary" onclick="runPipeline()">▶ Run Pipeline</button>
+    <button class="btn-ghost"   onclick="loadAll()">⟳ Refresh Data</button>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="label">Frames Indexed</div>
+      <div class="value accent" id="stat-frames">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Total Alerts</div>
+      <div class="value orange" id="stat-alerts">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Critical</div>
+      <div class="value red" id="stat-critical">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">High Severity</div>
+      <div class="value orange" id="stat-high">—</div>
+    </div>
+  </div>
+
+  <div class="summary-bar">
+    🎥 Video Summary: <span id="video-summary">Run pipeline to generate summary.</span>
+  </div>
+
+  <div class="grid-2">
+    <!-- Alerts -->
+    <div class="card">
+      <div class="card-header">
+        🚨 Security Alerts
+        <span class="count" id="alerts-count"></span>
+      </div>
+      <div class="card-body" id="alerts-list">
+        <div class="empty">Run pipeline to populate alerts.</div>
+      </div>
+    </div>
+
+    <!-- Frames -->
+    <div class="card">
+      <div class="card-header">
+        📹 Indexed Frames
+        <span class="count" id="frames-count"></span>
+      </div>
+      <div class="card-body" id="frames-list">
+        <div class="empty">Run pipeline to populate frames.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Frame Search -->
+  <div class="search-section">
+    <h3>🔍 Search Indexed Frames</h3>
+    <div class="search-row">
+      <input type="text" id="search-input" placeholder='Object keyword: "truck", "person", "Blue Ford F150" …'/>
+      <button class="btn-ghost" onclick="searchFrames()">Search</button>
+    </div>
+    <div class="search-results" id="search-results"></div>
+  </div>
+
+  <!-- Agent -->
+  <div class="agent-section">
+    <h3>🤖 Ask the Security Agent</h3>
+    <p>Powered by LangChain + LLaMA 3 (or mock LLM offline). Ask anything about today's surveillance data.</p>
+    <div class="search-row">
+      <input type="text" id="agent-input" placeholder='e.g. "What happened at midnight?" or "Show all truck events"'/>
+      <button class="btn-primary" onclick="askAgent()">Ask Agent</button>
+    </div>
+    <div class="agent-output" id="agent-output"></div>
+    <div class="agent-steps" id="agent-steps"></div>
+  </div>
+
+</main>
+
+<script>
+const api = '';
+
+async function fetchJSON(url, opts = {}) {
+  const res = await fetch(api + url, opts);
+  if (!res.ok) throw new Error(await res.text());
+  return res.json();
+}
+
+async function loadStats() {
+  try {
+    const s = await fetchJSON('/stats');
+    document.getElementById('stat-frames').textContent   = s.total_frames;
+    document.getElementById('stat-alerts').textContent   = s.total_alerts;
+    document.getElementById('stat-critical').textContent = s.critical_alerts;
+    document.getElementById('stat-high').textContent     = s.high_alerts;
+  } catch(e) { console.warn('Stats:', e); }
+}
+
+async function loadAlerts() {
+  try {
+    const data = await fetchJSON('/alerts');
+    const el   = document.getElementById('alerts-list');
+    document.getElementById('alerts-count').textContent = data.count + ' total';
+    if (!data.alerts.length) { el.innerHTML = '<div class="empty">No alerts triggered.</div>'; return; }
+    el.innerHTML = data.alerts.map(a => `
+      <div class="alert-item">
+        <span class="badge ${a.severity}">${a.severity}</span>
+        <div>
+          <div class="alert-text">${a.message}</div>
+          <div class="alert-meta">Frame ${a.frame_id} · Rule: ${a.rule_id} · ${a.time}</div>
+        </div>
+      </div>
+    `).join('');
+  } catch(e) { console.warn('Alerts:', e); }
+}
+
+async function loadFrames() {
+  try {
+    const frames = await fetchJSON('/frames');
+    const el     = document.getElementById('frames-list');
+    document.getElementById('frames-count').textContent = frames.length + ' frames';
+    if (!frames.length) { el.innerHTML = '<div class="empty">No frames indexed.</div>'; return; }
+    el.innerHTML = frames.map(f => `
+      <div class="frame-item">
+        <div class="frame-header">
+          <span class="frame-id">Frame ${f.frame_id}</span>
+          <span class="frame-time">${f.time}</span>
+          <span class="frame-loc">${f.location}</span>
+          ${f.alert_flag ? '<span class="frame-flag">⚠ ALERT</span>' : ''}
+        </div>
+        <div class="frame-desc">${f.description}</div>
+      </div>
+    `).join('');
+  } catch(e) { console.warn('Frames:', e); }
+}
+
+async function loadSummary() {
+  try {
+    const data = await fetchJSON('/video-summary');
+    document.getElementById('video-summary').textContent = data.summary;
+  } catch(e) {}
+}
+
+async function runPipeline() {
+  const btn = document.querySelector('.btn-primary');
+  btn.innerHTML = '<span class="spinner"></span>Running…';
+  btn.disabled = true;
+  try {
+    const res = await fetchJSON('/run-pipeline', { method: 'POST' });
+    await loadAll();
+    alert(`✅ Pipeline complete!\nFrames: ${res.stats.total_frames} | Alerts: ${res.stats.total_alerts}`);
+  } catch(e) {
+    alert('Pipeline error: ' + e.message);
+  } finally {
+    btn.innerHTML = '▶ Run Pipeline';
+    btn.disabled = false;
+  }
+}
+
+async function loadAll() {
+  await Promise.all([loadStats(), loadAlerts(), loadFrames(), loadSummary()]);
+}
+
+async function searchFrames() {
+  const kw = document.getElementById('search-input').value.trim();
+  if (!kw) return;
+  const el = document.getElementById('search-results');
+  el.innerHTML = '<div class="empty">Searching…</div>';
+  try {
+    const data = await fetchJSON('/frames/search?keyword=' + encodeURIComponent(kw));
+    if (!data.frames.length) {
+      el.innerHTML = `<div class="empty">No frames found for "${kw}".</div>`;
+      return;
+    }
+    el.innerHTML = `<div style="font-size:12px;color:var(--muted);padding:8px 0">${data.count} result(s) for "${kw}"</div>` +
+      data.frames.map(f => `
+        <div class="frame-item">
+          <div class="frame-header">
+            <span class="frame-id">Frame ${f.frame_id}</span>
+            <span class="frame-time">${f.time}</span>
+            <span class="frame-loc">${f.location}</span>
+            ${f.alert_flag ? '<span class="frame-flag">⚠ ALERT</span>' : ''}
+          </div>
+          <div class="frame-desc">${f.description}</div>
+        </div>
+      `).join('');
+  } catch(e) {
+    el.innerHTML = `<div class="empty">Error: ${e.message}</div>`;
+  }
+}
+
+async function askAgent() {
+  const q   = document.getElementById('agent-input').value.trim();
+  const out = document.getElementById('agent-output');
+  const steps = document.getElementById('agent-steps');
+  if (!q) return;
+  out.style.display = 'block';
+  out.textContent   = '⏳ Agent is thinking…';
+  steps.innerHTML   = '';
+  try {
+    const data = await fetchJSON('/agent/query', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query: q }),
+    });
+    out.textContent = data.answer;
+    if (data.steps && data.steps.length) {
+      steps.innerHTML = '<div style="font-size:12px;color:var(--muted);margin-top:8px;margin-bottom:4px">Agent reasoning steps:</div>' +
+        data.steps.map(s => `
+          <div class="agent-step">
+            <b>Tool:</b> ${s.action} &nbsp;|&nbsp; <b>Input:</b> ${JSON.stringify(s.input)}<br>
+            <span style="color:var(--muted)">${String(s.output).slice(0, 200)}${String(s.output).length > 200 ? '…' : ''}</span>
+          </div>
+        `).join('');
+    }
+  } catch(e) {
+    out.textContent = 'Error: ' + e.message;
+  }
+}
+
+// Enter key triggers search/ask
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  if (document.activeElement.id === 'search-input') searchFrames();
+  if (document.activeElement.id === 'agent-input')  askAgent();
+});
+
+// Load on page open (data may already be in DB)
+loadAll();
+</script>
+</body>
+</html>
